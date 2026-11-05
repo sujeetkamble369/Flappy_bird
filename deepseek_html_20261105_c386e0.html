@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#0d1a22">
+  <title>Floppy Bird — Dual Mode</title>
+  <!-- Critical inline styles: guarantees visibility even if style.css is missing -->
+  <style>
+    html, body {
+      margin: 0; padding: 0; width: 100%; height: 100%;
+      overflow: hidden; background: #0d1a22; color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      -webkit-user-select: none; user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: none; overscroll-behavior: none;
+    }
+    body { display: flex; align-items: center; justify-content: center; }
+    canvas {
+      display: block; background: #0d1a22;
+      border-radius: 12px;
+      box-shadow: 0 24px 70px rgba(0,0,0,0.65);
+      touch-action: none; cursor: pointer;
+    }
+  </style>
+  <link rel="stylesheet" href="deepseek_css_20261105_703cb7.css">
+</head>
+<body>
+  <canvas id="game" width="360" height="640"></canvas>
+  <script src="deepseek_javascript_20261105_0f1ba9.js"></script>
+</body>
+</html>
